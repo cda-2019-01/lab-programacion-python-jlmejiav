@@ -23,9 +23,3 @@ for w in letras:
             sum = sum + int(row[1])        
     print(w,',',sum)
 ##
-for w in letras:
-     ...:         sum=0
-     ...:         for row in data4:
-     ...:             if row[0] == w:
-     ...:                 sum = sum + int(row[1])
-     ...:         print(w,sum)
