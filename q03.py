@@ -15,7 +15,6 @@ col1 = [row[0] for row in data4]
 letras = sorted(set(col1))
 ##
 sum=0
-vec=[]
 for w in letras:
     sum=0
     for row in data4:
