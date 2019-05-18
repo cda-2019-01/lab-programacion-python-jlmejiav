@@ -23,4 +23,3 @@ for w in letras:
     maximo = max(vec)
     minimo = min(vec)
     print(w,',',maximo,',',minimo)
-##            minimo = min(int(row[1])
