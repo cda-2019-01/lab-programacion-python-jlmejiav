@@ -11,3 +11,10 @@
 ## E,2,3
 ## E,3,3
 ##
+data2=open('data.csv','r').readlines()
+data3 = [row[0:-1] for row in data2]
+data4 = [row.split('\t') for row in data3]
+data5 = [z[0:4] + [ z[4].split(',')] + z[5:] for z in data4]
+data6 = [z[0:3] + [ z[3].split(',')] + z[4:] for z in data5]
+for row in data6:
+    print(row[0],',',len(row[3]),',',len(row[4]))

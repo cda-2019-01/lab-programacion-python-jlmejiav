@@ -16,3 +16,15 @@
 ##    ('9', ['A', 'B', 'E', 'C'])
 ##
 ##
+data2=open('data.csv','r').readlines()
+data3 = [row[0:-1] for row in data2]
+data4 = [row.split('\t') for row in data3]
+col1 = [row[1] for row in data4]
+numeros = sorted(set(col1))
+##
+for n in numeros:
+    vec=[]
+    for row in data4:
+        if row[1] == n:
+            vec.append(row[0])
+    print('(',n,',',vec,')')
