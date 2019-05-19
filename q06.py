@@ -1,4 +1,4 @@
-##
+﻿##
 ## Por cada clave de la columna 5 (cadena de tres letras), obtenga
 ## el valor mas pequeño y el valor mas grande asociado a esa clave.
 ##
@@ -34,4 +34,5 @@ for w in setletras:
     maximo = max(vec)
     minimo = min(vec)
     print(w,',',minimo,',',maximo)
+    print(w+','+str(minimo)+','+str(maximo))
     ##RESPUESTA MALA - ver ejemplo de 'aaa', en la fila 14 de data tiene un 8, 'eee' y 'ddd' se ven de una
