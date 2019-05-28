@@ -28,4 +28,4 @@ letrasynum = [ x.split(':') for x in colsololetras]
 setletras = sorted(set([x[0] for x in letrasynum]))
 sololetras = [s[0] for s in letrasynum]
 for w in setletras:
-    print(w,',',sololetras.count(w))
+    print(str(w)+','+str(sololetras.count(w)))

@@ -22,4 +22,4 @@ for w in letras:
             vec.append(row[1])
     maximo = max(vec)
     minimo = min(vec)
-    print(w,',',maximo,',',minimo)
+    print(w+','+str(maximo)+','+str(minimo))

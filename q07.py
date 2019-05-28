@@ -27,4 +27,4 @@ for n in numeros:
     for row in data4:
         if row[1] == n:
             vec.append(row[0])
-    print('(',n,',',vec,')')
+    print('('+str(n)+','+str(vec)+')')

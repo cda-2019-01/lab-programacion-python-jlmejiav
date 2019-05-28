@@ -27,5 +27,5 @@ for w in sololetrasord:
         for x in row[3]:
             if x == w:
                 sum = sum + int(row[1])        
-    print(w,',',sum)
+    print(w+','+str(sum))
 ##

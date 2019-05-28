@@ -21,4 +21,4 @@ data5 = [z + [ z[2].split('-')[1]] for z in data4]
 mesestotal = [row[5] for row in data5]
 meses = sorted(set(mesestotal))
 for m in meses:
-    print(m,',',mesestotal.count(m)) 
+    print(m+','+str(mesestotal.count(m))) 

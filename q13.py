@@ -19,4 +19,4 @@ for row in data6:
     sum=0
     for x in row[4:]:
                 sum = sum + int(x[1])        
-    print(row[0],',',sum)
+    print(row[0]+','+str(sum))

@@ -33,6 +33,5 @@ for w in setletras:
             vec.append(row[1])
     maximo = max(vec)
     minimo = min(vec)
-    print(w,',',minimo,',',maximo)
     print(w+','+str(minimo)+','+str(maximo))
     ##RESPUESTA MALA - ver ejemplo de 'aaa', en la fila 14 de data tiene un 8, 'eee' y 'ddd' se ven de una

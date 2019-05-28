@@ -14,4 +14,4 @@ data4 = [row.split('\t') for row in data3]
 col1 = [row[0] for row in data4]
 letras = sorted(set(col1))
 for w in letras:
-    print(w,',',col1.count(w)) 
+    print(w+','+str(col1.count(w))) 

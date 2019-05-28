@@ -20,5 +20,5 @@ for w in letras:
     for row in data4:
         if row[0] == w:
             sum = sum + int(row[1])        
-    print(w,',',sum)
+    print(w+','+str(sum))
 ##
